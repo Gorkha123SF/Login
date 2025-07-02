@@ -5,7 +5,7 @@ const form = document.getElementById("passwordForm");
 const showPassword = document.getElementById("showPassword");
 
 function validatePassword() {
-    if (password.value === "Life less ordinary") {
+    if (password.value === "G embassy") {
         message.textContent = "Password is correct ✅";
         message.className = "valid";
         submitBtn.disabled = false;
